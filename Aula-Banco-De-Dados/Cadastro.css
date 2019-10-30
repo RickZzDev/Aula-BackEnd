@@ -1,0 +1,210 @@
+padding,h1,margin{
+    margin: 0px;
+    padding: 0px;
+}
+
+textarea{
+    width:230px;
+    height: 80px;
+}
+
+#barra_sup{
+    width:100%;
+    height: 15%;
+    background-color: aqua;
+    background-image: url(imagens/php.png);
+    background-size: contain;
+}
+
+
+#conteudo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: white;
+    height: 1000px;
+    width:580px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#titulo_cadastro{
+    width:100%;
+    height: 80px;
+    background-color: skyblue;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-top: 20px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.campos_cadastro{
+    width: 100%;
+    height: 80px;
+    margin-top: 2px;
+    background-color: white;
+}
+
+.nome_campo{
+    height: 100%;
+    width: 110px;
+    background-color: skyblue;
+    padding-top: 25px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    float: left;
+}
+
+.campo_formulario{
+    background-color: white;
+    float: left;
+    width: 280px;
+    height: inherit;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+#botoes{
+    width: 200px;
+    height: 45px;
+    background-color: ;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#consultas{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    margin-top: 100px;
+    width: 1800px;
+    min-height: 152px;
+    background-color: ;
+    overflow: hidden;
+}
+
+#titulo_consulta_caixa{
+    width: inherit;
+    height: 50px;
+    background-color: skyblue;
+    box-sizing: border-box;
+    padding-left: 500px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.caixas_consulta{
+    width: 235px;
+    min-height:50px;
+    background-color: yellow;
+    
+    float: left;
+}
+
+.titulo_consulta{
+    width: 100%;
+    height: 30px;
+    background-color: deepskyblue;
+    box-sizing: border-box;
+    padding-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 1px;
+}
+
+.campo_consulta{
+    width: 100%;
+    min-height: 70px;
+    background-color: white;
+    border: solid 1px;
+}
+
+.icones{
+  width: 28px;
+  height: 30px;
+  background-color: ;
+  float: left;
+  border-right: solid 2px;
+    padding-top: 2px;
+    box-sizing: border-box;
+  margin-top: 40px;
+    
+}
+
+
+.campoVazio{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+}
+
+#titulos{
+    width:100%;
+    height: 30px;
+    background-color: aqua;
+}
+
+.camposVazios{
+    width: 230px;
+    height: 50px;
+    float: left;
+    background-color: red;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.titulosNew{
+    width:237px;
+    height: 20px;
+    background-color: red;
+    float: left;
+    border: solid 1px;   
+}
+
+.opcoes{
+    background-color: yellow;
+    width: 230px;
+    height: 50px;
+    float: left;
+}
+
+.segura_tudo{
+    width:inherit;
+    height: 80px;
+    background-color: purple;
+}
+
+.iconesNew{
+    height: inherit;
+    width:50px;
+    background-color: brown;
+    margin-right: 2px;
+    float: left;
+
+}
+
+/*Estilização da modal*/
+
+#modal_caixa{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999;
+    position: fixed;
+    display: none;
+}
+
+
+#modal{
+    width:800px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    
+}
